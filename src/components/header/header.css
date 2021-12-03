@@ -1,0 +1,126 @@
+.header_inline_content{
+    height: auto;
+    width: 100%;
+    background-image: url(../../assets/header/header-bg.webp);
+    background-attachment: fixed;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo_img{
+    position: absolute;
+    left:40px;
+    top:0;
+}
+.pink_flower{
+    position:absolute;
+    /* left: */
+}
+.header_container{
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: auto;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+}
+
+.header_section{
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    min-width: 980px;
+
+    display: flex;
+    flex-direction: row;
+}
+.header_title_section{
+    flex: 3;
+}
+.header_titile{
+    font-size: 24px;
+    color:white !important;
+    text-decoration: none;
+}
+.header_menu_section{
+    flex: 6;
+
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin:auto;
+}
+.header_menu_space{
+    flex: 10;
+}
+.header_menu{
+    color:white;
+    flex: 2;
+}
+.header_menu_active{
+    color:rgb(112,190,74);
+    flex: 2;
+}
+.header_menu:hover{
+    color: rgb(112,190,74);
+    transition: color 0.4s ease;
+}
+
+.header_button_section{
+    flex: 1;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.mint_button{
+    flex:1;
+    background-color:transparent;
+    color:white;
+    border: solid white 1px;
+    margin: auto;
+    padding: 1em 0em 1em 0em;
+}
+
+.header_cart{
+    flex:1;
+}
+
+.header_cart_svg{
+    fill: #70BE4A;
+    width: 33px;
+    height: 33px;
+    padding-top: 1em;
+}
+
+.header_content{
+    height: 1200px;
+}
+.header_content_text{
+    padding-left: 4em;
+    float: left;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+.header_content_text_title{
+    padding-top: 2em;
+    font-size: 58px;
+    color:white;
+    text-align: left;
+}
+
+.header_content_text_content{
+    /* padding-top: 2em; */
+    font-size: 30px;
+    color:white;
+    text-align: left;
+}
+.header_content_text_mint{
+    float: left;
+    background-color: rgb(112,190,74);
+    font-size: 15px;
+    margin: 4em auto;
+    padding: 2em 4em;
+}
