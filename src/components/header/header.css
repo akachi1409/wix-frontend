@@ -90,30 +90,28 @@
     height: 1200px;
 }
 .header_content_text{
-    padding-left: 4em;
-    float: left;
-    width: 750px;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 .header_content_text_title{
     padding-top: 2em;
     font-size: 58px;
     color:white;
-    text-align: left;
+    
 }
 
 .header_content_text_content{
     /* padding-top: 2em; */
     font-size: 30px;
     color:white;
-    text-align: left;
 }
 .header_content_text_mint{
     background-color: rgb(112,190,74);
-    width: 20%; 
+    /* width: 100%;  */
     font-size: 16px;
-    margin: 4em auto 4em 0em;
+    margin: auto;
+    /* margin: 4em auto 4em 0em; */
     padding: 1em 3em;
     border-radius: 8px;
 }
