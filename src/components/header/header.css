@@ -1,11 +1,7 @@
 .header_inline_content{
     height: auto;
     width: 100%;
-    background-image: url(../../assets/header/header-bg.webp);
-    background-attachment: fixed;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
+   
 }
 .logo_img{
     position: absolute;
@@ -17,18 +13,14 @@
     /* left: */
 }
 .header_container{
-    position: static;
-    display: grid;
-    height: auto;
-    width: 100%;
-    min-height: auto;
-    grid-template-rows: 1fr;
-    grid-template-columns: 100%;
+    background-image: url(../../assets/header/header-bg.webp);
+    background-attachment: fixed;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header_section{
-    left: 0;
-    margin-left: 0;
     width: 100%;
     min-width: 980px;
 
@@ -130,4 +122,87 @@
     color: white;
     transition: color 0.4s ease;
     transition: background-color 0.4s ease;
+}
+.short_menu
+{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .header_container{
+        background-image: url(../../assets/header/header-bg.webp);
+        background-attachment: scroll;
+        background-position: none;
+        background-repeat: no-repeat;
+        height: 600px;
+        background-size: 100% auto;
+    }
+    .header_section{
+        left: 0;
+        margin-left: 0;
+        width: 100%;
+        min-width: 0px;
+    
+        display: flex;
+        flex-direction: row;
+    }
+    .header_content_text{
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1em;
+        padding-top: 0em;
+    }
+
+    .header_content_text_title{
+        padding-top: 0em;
+        font-size:35px;
+        text-align: center;
+        color:white;
+    }
+
+    .header_content_text_mint{
+        background-color: rgb(112,190,74);
+        width: 50%; 
+        font-size: 16px;
+        border-radius: 8px;
+        padding: 2em;
+        margin: 0em;
+    }
+
+    .header_menu_section{
+        display: none;
+    }
+
+    .header_button_section{
+        flex: 1;
+    
+        display: flex;
+    }
+    
+    .mint_button{
+        flex:1;
+        background-color:transparent;
+        color:white;
+        border: solid white 1px;
+        margin: auto;
+        padding: 1em 2em;
+        border-radius: 5px;
+    }
+    
+    .header_cart{
+        position: relative;
+        left: -96px;
+        top: -10px;
+    }
+
+    .logo_img{
+        position: absolute;
+        left:40px;
+        top:60px;
+    }
+    .header_content {
+        margin-top: 60px;
+    }
+
 }

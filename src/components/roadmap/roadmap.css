@@ -80,3 +80,42 @@
     color: white;
     transition: color 0.4s ease;
 }
+.roadmap_mint:not(:hover){
+    background-color:  rgb(112,190,74);
+    color: black;
+    transition: color 0.4s ease;
+}
+@media only screen and (max-width: 600px) {
+    .roadmap_layout{
+        background-color: rgb(20,20,22);
+        padding-top: 100em;
+    }
+    .roadmap_section{
+        border: none;
+        height:auto;
+        margin: 0em 3em;
+        min-width: 0px;
+    
+        display: flex;
+        flex-direction: column;
+    }
+    .roadmap_left_title{
+        padding: 3em 0em;
+        line-height: 1.4em;
+        font-size: 30px;
+    }
+    .roadmap_left_bar{
+        flex: 5;
+        background-image: url(../../assets/header/roadmap-mobile-bg.webp);
+        border: none;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: white;
+    }
+    .roadmap_right_text:first-child{
+        margin-top: 1em!important;
+        
+    }
+}

@@ -87,3 +87,25 @@
     color: white;
     transition: color 0.4s ease;
 }
+
+@media only screen and (max-width: 600px) {
+    .metaverse_section{
+        border:none;
+        height:700px;
+        min-width: 0px;
+        margin-top: 7em;
+    
+        display: flex;
+        flex-direction: column;
+    }
+
+    .metaverse_left_bar{
+        border-right: none;
+    }
+    .metaverse_left_title:first-child{
+        padding-top: 3em;
+    }
+    .metaverse_right_text:first-child{
+        margin-top: 2em!important;
+    }
+}

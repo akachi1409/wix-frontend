@@ -37,3 +37,18 @@
     border-radius: 5px;
     margin: 30px;
 }
+
+@media only screen and (max-width: 600px) {
+    .card_layout{
+        border: 2px solid rgb(27,28,30);
+        border-radius: 5px;
+        max-width: 100%;
+        width: 100%;
+        max-height: 350px;
+        height: 350px;
+        background-color: rgb(27,28,30);
+        text-align: left;
+        display: inline-block;
+        margin-bottom: 2em;
+    }
+}
