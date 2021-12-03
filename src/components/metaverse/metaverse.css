@@ -19,7 +19,7 @@
 .metaverse_left_bar{
     flex: 6;
     background-image: url(../../assets/header/metaverse-bg.jpg);
-
+    border-right: solid thin rgb(63,67,73);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;

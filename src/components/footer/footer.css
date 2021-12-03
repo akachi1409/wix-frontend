@@ -21,6 +21,8 @@
     flex: 1;
     color: white;
     border-right: solid thin rgb(63,67,73);
+    display: grid;
+    place-items: center;
 }
 
 .footer_title{

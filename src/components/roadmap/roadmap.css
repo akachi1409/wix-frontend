@@ -19,7 +19,7 @@
 .roadmap_left_bar{
     flex: 5;
     background-image: url(../../assets/header/roadmap-bg.jpg);
-
+    border-right: solid thin rgb(63,67,73);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
