@@ -102,16 +102,13 @@
 }
 
 .header_content_text_content{
-    /* padding-top: 2em; */
     font-size: 30px;
     color:white;
 }
 .header_content_text_mint{
     background-color: rgb(112,190,74);
-    /* width: 100%;  */
     font-size: 16px;
     margin: auto;
-    /* margin: 4em auto 4em 0em; */
     padding: 1em 3em;
     border-radius: 8px;
 }
@@ -145,7 +142,6 @@
     }
     .header_content_text{
         display: flex;
-        width: 80%;
         flex-direction: column;
         text-align: center;
         padding-bottom: 1em;
@@ -157,15 +153,11 @@
         font-size:35px;
         text-align: center;
         color:white;
+        margin: auto;
     }
 
     .header_content_text_mint{
-        background-color: rgb(112,190,74);
-        width: 50%; 
-        font-size: 16px;
-        border-radius: 8px;
-        padding: 2em;
-        margin: 0em;
+        display: none;
     }
 
     .header_menu_section{
@@ -179,19 +171,11 @@
     }
     
     .mint_button{
-        flex:1;
-        background-color:transparent;
-        color:white;
-        border: solid white 1px;
-        margin: auto;
-        padding: 1em 2em;
-        border-radius: 5px;
+        display: none;
     }
     
     .header_cart{
-        position: relative;
-        left: -96px;
-        top: -10px;
+        display: none;
     }
 
     .logo_img{
